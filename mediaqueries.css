@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+/* Celulares */
+@media screen and (max-width: 500px) {
+    body {
+        background-size: cover;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    header img {
+        left: 31vw;
+    }
+
+    header p {
+        top: 34.5vh;
+        left: 7vw;
+        font-size: 1.5em;
+    }
+
+    h2::after, h2::before {
+        content: '';
+        position: absolute;
+        width: 8%;
+        height: 3px;
+        background-color: currentColor;
+        top: 1em;
+    }
+    
+    h2::before {
+        left: -1px;
+    }
+    
+    h2::after {
+        right: -1px;
+    }
+
+    #contato {
+        width: 100%;
+    }
+    
+    form {
+        width: 98%;
+        margin: 0 auto;
+    }
+}
+
+/* Tablets */
+@media (min-width: 500px) and (max-width: 1024px) {
+    body {
+        background-size: cover;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    header img {
+        left: 43vw;
+    }
+
+    header p {
+        top: 34vh;
+        left: 12vw;
+        font-size: 1.5em;
+    }
+
+    h2::after, h2::before {
+        content: '';
+        position: absolute;
+        width: 20%;
+        height: 3px;
+        background-color: currentColor;
+        top: 1em;
+    }
+    
+    h2::before {
+        left: -1px;
+    }
+    
+    h2::after {
+        right: -1px;
+    }
+}

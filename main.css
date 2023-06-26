@@ -1,0 +1,189 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+
+body {
+    background-image: url(./images/background.jpg);
+    background-size: 100vw auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+header {
+    position: relative;
+    margin: 8vh auto 18vh auto;
+    height: 21vh;
+    background-image: linear-gradient(#b4abcf 0%, #614aa7 50.52%, #281847 100%);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+header img {
+    position: absolute;
+    left: 45vw;
+    top: 12.5vh;
+    width: 160px;
+    background-image: linear-gradient(45deg, #483975 0%, #785dcc 50.52%, #b4abcf 100%);
+    border-radius: 50%;
+    display: flex;
+    padding: 4px;
+}
+
+h1 {
+    padding: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3em;
+    color: aliceblue;
+}
+
+header p {
+    position: absolute;
+    top: 17vh;
+    left: 62vw;
+    font-family: 'Caveat', cursive;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+main {
+    max-width: 800px;
+    width: 90%;
+    margin: 32px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+h2 {
+    position: relative;
+    text-align: center;
+    padding: 4px;
+    font-family: 'Bad Script', cursive;
+    font-size: 1.2em;
+    color: rgb(240, 248, 255);
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+}
+
+h2::after, h2::before {
+    content: '';
+    position: absolute;
+    width: 240px;
+    height: 3px;
+    background-color: currentColor;
+    top: 1em;
+}
+
+h2::before {
+    left: -1px;
+}
+
+h2::after {
+    right: -1px;
+}
+
+section {
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    color: black;
+    font-size: 2em;
+    font-weight: 500;
+    text-align: justify;
+    background-image: linear-gradient(90deg, #483975 0%, #785dcc 50.52%, #b4abcf 100%);
+    padding-top: 4px;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+
+section div {
+    background-color: #6a6085;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+section p {
+    font-family: 'Dosis', sans-serif;
+    font-size: 0.8em;
+}
+
+h3 {
+    padding: 8px;
+    font-size: .9em;
+}
+
+#contato {
+    width: 60%;
+    margin: 0 auto;
+}
+
+form {
+    width: 98%;
+    margin: 0 auto;
+}
+
+div .form-campo {
+    padding: 4px;
+}
+
+#contato h2 {
+    text-align: left;
+}
+
+form label {
+    font-size: 0.6em;
+}
+
+.form-campo input,
+.form-campo textarea {
+    width: 100%;
+    display: block;
+    padding: 8px;
+}
+
+.form-campo textarea {
+    resize: none;
+    height: 120px;
+}
+
+form button {
+    width: 100%;
+    margin: 0 auto;
+    padding: 12px;
+    font-size: 1em;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+    border: none;
+    background-color: #281847;
+    color: #fff;
+    border-radius: 12px;
+}
+
+footer > .container{
+    margin: 8px auto;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 16px;
+}
+
+footer li {
+    display: inline;
+    list-style: none;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer li img {
+    height: 56px;
+    margin: 16px;
+}

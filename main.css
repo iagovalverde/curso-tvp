@@ -160,6 +160,8 @@ form label {
     width: 100%;
     display: block;
     padding: 8px;
+    font-size: .6em;
+    color: black;
 }
 
 .form-campo textarea {

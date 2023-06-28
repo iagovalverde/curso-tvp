@@ -6,6 +6,10 @@
         background-size: cover;
     }
 
+    body.form-enviado {
+        font-size: 0.8em;
+    }
+
     h1 {
         font-size: 1.5em;
     }
@@ -51,6 +55,10 @@
 @media (min-width: 500px) and (max-width: 1024px) {
     body {
         background-size: cover;
+    }
+
+    body.form-enviado {
+        font-size: 1em;
     }
 
     h1 {

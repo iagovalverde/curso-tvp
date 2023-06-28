@@ -16,6 +16,20 @@ body {
     background-position: center center;
 }
 
+body.form-enviado {
+    width: 80%;
+    background-image: none;
+    background-image: linear-gradient(#b4abcf 0%, #614aa7 50.52%, #281847 100%);
+    margin: 6px auto;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.form-enviado > h1 {
+    font-size: 1.4em;
+}
+
 header {
     position: relative;
     margin: 8vh auto 18vh auto;

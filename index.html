@@ -21,7 +21,7 @@
 <body>
     <header>
         <h1>Curso de Terapia Regressiva</h1>
-        <img src="./images/angelica.jpg" alt="">
+        <img src="./images/angelica.jpg" alt="Terapeuta Maria Angélica Valverde">
         <p>Por Maria Angélica Valverde</p>
     </header>
     <main>
@@ -52,7 +52,7 @@
         <section id="contato">
             <div>
                 <h3>Entre em contato</h3>
-                <form>
+                <form action="https://formsubmit.co/mangeval@gmail.com" method="POST">
                     <div class="form-campo">
                         <label for="name">Nome:</label>
                         <input type="text" required id="name" name="name">
@@ -66,6 +66,7 @@
                         <textarea id="message" name="message"></textarea>
                     </div>
                     <div class="form-campo">
+                        <input type="hidden" name="_next" value="https://vidaspassadas.vercel.app/form.html">
                         <button type="submit">Enviar</button>
                     </div>
                 </form>
@@ -74,7 +75,6 @@
     </main>
     <footer>
         <div class="container">
-            
             <ul>
                 <li>
                     <a href="#">
